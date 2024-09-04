@@ -44,10 +44,10 @@ brandontheme=theme(
   panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
   panel.background = element_blank(), axis.line = element_line(colour = "black"),
   plot.title = element_text(color="black", size=14,
-                            face="bold",hjust = 0.5),
+                            face="plain",hjust = 0.5),
   axis.text = element_text(color="black", size=12,
-                           face="bold",hjust = 0.7),
-  axis.title = element_text(color="black", size=12, face="bold",
+                           face="plain",hjust = 0.7),
+  axis.title = element_text(color="black", size=12, face="plain",
                             hjust = 0.5))
 norm_dist_plot= function(x_values,channel=NA){
   ggplot(data = data.frame(x = x_values), aes(x)) + #not necessary
